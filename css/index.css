@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.co/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dongle&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins' , sans-serif;
+  background-color:#8338EC;
+  color: white;
+  text-align: center;
+}
+.container{
+  background-color: #A16AE8;
+  margin: 50px;
+  height: 400px;
+  margin-top: 100px;
+  border-radius:40px;
+  box-shadow:0 0 15px #2e2d30 ;
+  align-items: center;
+  text-align: center;
+}
+input{
+  width: 200px;
+  background-color: white;
+  color: black;
+  height: 40px;
+  margin-top: 100px;
+  border: none;
+  border-radius: 4px;
+  resize: none;
+  font-family: 'Source Sans Pro', sans-serif;
+  text-align: center;
+  box-shadow:0 0 10px #2e2d30 ;
+}
+select {
+  width: 200px;
+  height: 40px;
+  border: none;
+  border-radius: 4px;
+  background-color:#fff;
+  color: black;
+  margin-top: 20px;
+  text-align: center;
+  font-family: 'Source Sans Pro', sans-serif;
+  box-shadow:0 0 8px #2e2d30 ;
+}
+.download {
+  width: 200px;
+  background-color:#2b59e3;
+  color:whitesmoke;
+  height: 40px;
+  font-size: 20px;
+  margin-top: 20px;
+  border: none;
+  border-radius: 4px;
+  resize: none;
+  font-family: 'Source Sans Pro', sans-serif;
+  box-shadow:0 0 8px #2e2d30 ;
+}
+.download:hover{
+  background-color: #f40c86;
+  transition: 0.5s ease;
+}
+.download-video{
+  background-color: #A16AE8;
+  margin-top: 30px;
+  overflow: hidden;
+}
+.semen{
+  background-color:#A16AE8 ;
+  margin-top: 30px;
+  overflow: hidden;
+  border-top-left-radius: 40px;
+  border-top-right-radius:40px ;
+  padding-top: 20px;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+p{
+  padding: 30px;
+  font-family:'Source Sans Pro' ,sans-serif;
+}
